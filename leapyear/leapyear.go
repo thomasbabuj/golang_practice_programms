@@ -13,6 +13,8 @@ func main() {
 		fmt.Println("Error : ", err)
 	}
 
+	// this log is based on algorithm
+	// http://www.wikiwand.com/en/Leap_year#/Gregorian_calendar
 	if year%400 == 0 {
 		fmt.Printf("%d is a leap year.\n", year)
 	} else if year%100 == 0 {
